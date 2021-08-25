@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1F1E27;
+    color: #f3f3f3;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 210px;
+    min-height: calc(100vh - 210px);
+}
+
+.swal2-popup {
+    background-color: #1F1E27 !important;
+}
+#swal2-html-container {
+    color: #f3f3f3 !important;
+}
+.swal2-styled.swal2-confirm {
+    background: linear-gradient(45deg, #790909 11%, #b50000 100%) !important;
+}
+.modal {
+    display: flex;
+    width: 100%;
+}
+.modal img {
+    width: 80%;
+}
+.modal > div {
+    width: 50%;
+    padding: 15px;
+}
+.modal span {
+    font-size: 16px;
+}
+
+.weapon.stattrak {
+    color: #c78509;
+}
+.weapon.pink {
+    color: #bb00a2;
+}
+.weapon.knife {
+    color: #bb0000;
+}
+
+
+.swal2-popup {
+    width: 40% !important;
+}
+.swal2-styled {
+    width: 100px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #282734;
+    border-radius: 5px;
+}

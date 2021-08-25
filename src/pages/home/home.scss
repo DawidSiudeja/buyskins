@@ -1,0 +1,124 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .MuiCheckbox-colorPrimary.Mui-checked,
+    .MuiCheckbox-root {
+        color: #b50000;
+    }
+    .filters {
+        > div {
+            width: 90%;
+            background: #282734;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .price {
+            width: 100%;
+            display: flex;
+            > div {
+                width: 48%;
+            }
+            > div:first-child {
+                margin-right: 4%;
+            }
+        }
+    }
+    .search_box { 
+        margin-bottom: 15px;
+        > div {
+        background: #282734 !important;
+        border-radius: 4px !important;
+        width: 100% !important;
+        .MuiFormLabel-root {
+            color: #fff !important;
+        }
+        .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+            border-color: #b50000 !important;
+            transition: .2s ease-in-out;
+        }
+    }
+    }
+    .content {
+        
+        .item {
+            padding: 15px;
+            background: #282734;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .skin {
+                font-size: 20px;
+            }
+            .price {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }            
+            button {
+                background: #790909;
+                background: linear-gradient(45deg, #790909 11%, #b50000 100%);
+                width: 100%;
+                margin-top: 15px;
+            }
+            
+            .txt-content {
+                width: 100%;
+                text-align: center;
+            }
+            .img img {
+                width: 70%;
+                margin-left: 15%;
+            }
+        }
+    }
+}
+
+
+.pointer {
+    height: 20px;
+    position: relative;
+    svg {
+        position: absolute;
+        left: calc(33.2% - 12px);
+    }
+}
+.float span span {
+    opacity: 0.6;
+}
+.colors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    div {
+        height: 4px;
+    }
+    .fn {
+        width: 7%;
+        background-color: #324ed8;
+        border-radius: 2px 0 0 2px;
+    }
+    .mw {
+        width: 8%;
+        background-color: #39a739;
+    }
+    .ft {
+        width: 22%;
+        background-color: yellow;
+    }
+    .ww {
+        width: 7%;
+        background-color: orange;
+    }
+    .bs {
+        width: 56%;
+        background-color: red;
+        border-radius: 0 2px 2px 0;
+    }
+}

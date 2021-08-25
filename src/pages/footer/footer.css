@@ -1,0 +1,22 @@
+.footer {
+  padding-top: 30px;
+  margin-top: 30px;
+  background-color: #282734;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.footer .pagewidth .imgfooter img {
+  width: 75%;
+}
+.footer .linksfooter ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.footer .linksfooter ul a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.footer .linksfooter ul a:hover {
+  text-decoration: underline !important;
+}/*# sourceMappingURL=footer.css.map */

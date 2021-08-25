@@ -1,0 +1,119 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home .MuiCheckbox-colorPrimary.Mui-checked,
+.home .MuiCheckbox-root {
+  color: #b50000;
+}
+.home .filters > div {
+  width: 90%;
+  background: #282734;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.home .filters .price {
+  width: 100%;
+  display: flex;
+}
+.home .filters .price > div {
+  width: 48%;
+}
+.home .filters .price > div:first-child {
+  margin-right: 4%;
+}
+.home .search_box {
+  margin-bottom: 15px;
+}
+.home .search_box > div {
+  background: #282734 !important;
+  border-radius: 4px !important;
+  width: 100% !important;
+}
+.home .search_box > div .MuiFormLabel-root {
+  color: #fff !important;
+}
+.home .search_box > div .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #b50000 !important;
+  transition: 0.2s ease-in-out;
+}
+.home .content .item {
+  padding: 15px;
+  background: #282734;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .content .item .skin {
+  font-size: 20px;
+}
+.home .content .item .price {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.home .content .item button {
+  background: #790909;
+  background: linear-gradient(45deg, #790909 11%, #b50000 100%);
+  width: 100%;
+  margin-top: 15px;
+}
+.home .content .item .txt-content {
+  width: 100%;
+  text-align: center;
+}
+.home .content .item .img img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.pointer {
+  height: 20px;
+  position: relative;
+}
+.pointer svg {
+  position: absolute;
+  left: calc(33.2% - 12px);
+}
+
+.float span span {
+  opacity: 0.6;
+}
+
+.colors {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.colors div {
+  height: 4px;
+}
+.colors .fn {
+  width: 7%;
+  background-color: #324ed8;
+  border-radius: 2px 0 0 2px;
+}
+.colors .mw {
+  width: 8%;
+  background-color: #39a739;
+}
+.colors .ft {
+  width: 22%;
+  background-color: yellow;
+}
+.colors .ww {
+  width: 7%;
+  background-color: orange;
+}
+.colors .bs {
+  width: 56%;
+  background-color: red;
+  border-radius: 0 2px 2px 0;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,92 @@
+$main-text: #f3f3f3;
+$dark-red: #790909;
+$bright-red: #b50000;
+$darkbg: #282734;
+$navbarFont: 13px;
+
+.pagewidth {
+    width: 1465px;
+    margin: auto;
+}
+.panel1 {
+    background-color: $darkbg;
+    height: 94px;
+    margin-top:12px;
+    .navbar {
+        ul {
+            list-style: none;
+            display: flex;
+            > div {
+                li {
+                    margin: 10px 30px;
+                    position: relative;
+                    .line {
+                        margin-top: 5px;
+                        position: absolute;
+                        width: 0%;
+                        height: 2px;
+                        left: 50%;
+                        background-color: $dark-red;
+                        transition: .2s ease-in-out;
+                    }
+                    a {
+                        text-decoration: none !important;
+                        color: $main-text;
+                        font-size: $navbarFont;
+                    } 
+                }
+                li:hover {
+                    .line {
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+            }   
+        }
+    }
+    .account {
+        display: flex;
+        .main-btn button {
+            text-transform: capitalize;
+            font-size: $navbarFont;
+        }
+        .main-btn.sign-in button{
+                background-color: transparent;
+                color: $main-text;
+                box-shadow: none;  
+                margin-right: 15px;
+                
+        }
+        .main-btn.sign-up button{
+            background: $dark-red;
+            background: linear-gradient(45deg, rgba(121,9,9,1) 11%, rgba(181,0,0,1) 100%);
+        }
+    }
+    .MuiButton-root {
+        font-family: 'Poppins', sans-serif !important;
+    }
+    .small-container {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        > div {
+            display: flex;
+            width: 100%;
+        }
+        .logo_container {
+            justify-content: flex-start;
+        }
+        .btn-container {
+            justify-content: flex-end;
+        }
+        .navbar-container {
+            justify-content: center;
+        }
+        img {
+            width: 70%;
+            
+        }
+    }
+}
+

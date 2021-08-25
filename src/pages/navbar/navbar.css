@@ -1,0 +1,77 @@
+.pagewidth {
+  width: 1465px;
+  margin: auto;
+}
+
+.panel1 {
+  background-color: #282734;
+  height: 94px;
+  margin-top: 12px;
+}
+.panel1 .navbar ul {
+  list-style: none;
+  display: flex;
+}
+.panel1 .navbar ul > div li {
+  margin: 10px 30px;
+  position: relative;
+}
+.panel1 .navbar ul > div li .line {
+  margin-top: 5px;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 50%;
+  background-color: #790909;
+  transition: 0.2s ease-in-out;
+}
+.panel1 .navbar ul > div li a {
+  text-decoration: none !important;
+  color: #f3f3f3;
+  font-size: 13px;
+}
+.panel1 .navbar ul > div li:hover .line {
+  width: 100%;
+  left: 0%;
+}
+.panel1 .account {
+  display: flex;
+}
+.panel1 .account .main-btn button {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.panel1 .account .main-btn.sign-in button {
+  background-color: transparent;
+  color: #f3f3f3;
+  box-shadow: none;
+  margin-right: 15px;
+}
+.panel1 .account .main-btn.sign-up button {
+  background: #790909;
+  background: linear-gradient(45deg, #790909 11%, #b50000 100%);
+}
+.panel1 .MuiButton-root {
+  font-family: "Poppins", sans-serif !important;
+}
+.panel1 .small-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.panel1 .small-container > div {
+  display: flex;
+  width: 100%;
+}
+.panel1 .small-container .logo_container {
+  justify-content: flex-start;
+}
+.panel1 .small-container .btn-container {
+  justify-content: flex-end;
+}
+.panel1 .small-container .navbar-container {
+  justify-content: center;
+}
+.panel1 .small-container img {
+  width: 70%;
+}/*# sourceMappingURL=navbar.css.map */
