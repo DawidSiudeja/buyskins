@@ -1,2 +1,11 @@
-
-/*# sourceMappingURL=contact.css.map *//*# sourceMappingURL=contact.css.map */
+.contact a.linkcontact {
+  color: #fff !important;
+  display: flex;
+  text-decoration: none !important;
+}
+.contact a.linkcontact svg {
+  margin-right: 5px;
+}
+.contact a.linkcontact:hover {
+  text-decoration: underline !important;
+}/*# sourceMappingURL=contact.css.map */

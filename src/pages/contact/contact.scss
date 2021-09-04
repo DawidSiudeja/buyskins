@@ -1,0 +1,13 @@
+.contact {
+    a.linkcontact {
+        color: #fff !important;
+        display: flex;
+        text-decoration: none !important;
+        svg {
+            margin-right: 5px;
+        }
+    }
+    a.linkcontact:hover {
+        text-decoration: underline !important;
+    }
+}

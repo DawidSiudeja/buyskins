@@ -20,18 +20,19 @@ import Swal from 'sweetalert2'
 Swal.fire({
   title: '',
   html:
-    '<div style="text-align:left;"><span class="weapon stattrak">StatTrak AWP</span> ASIIMOV</div><hr>' +
     '<div class="modal">' +
       '<div class="left"><img src="/static/media/awp-asiimov.ebca7f5d.png"><br><div class="title"></div></div>' +
-      '<div class="right" style="text-align:left;">' +
-      '<div class="data"><span>Sprzedawca</span><span>XYZ</span></div><br>' +
-      '<div class="data"><span>Cena</span><span>160,00 PLN</span></div><br>' +
-      '<div class="data"><span>Stan</span><span>Po testach bojowych </span></div><br>' +
-      '<div class="float">Float: 0.332fv</span></span><div class="pointer"><div class="pointer"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"></path></svg></div></div> <div class="colors"><div class="fn"></div><div class="mw"></div><div class="ft"></div><div class="ww"></div><div class="bs"></div></div></div>' +
+      '<div class="right" style="text-align:left;"><div style="text-align:left;"><span class="weapon stattrak">StatTrak AWP</span><br> <span style="font-size:30px">ASIIMOV</span></div><br>' +
+      '<div class="data"><span style="opacity:.8">Sprzedawca</span><span>XYZ</span></div><br>' +
+      '<div class="data"><span style="opacity:.8">Cena</span><span>160,00 PLN</span></div><br>' +
+      '<div class="data"><span style="opacity:.8">Stan</span><span>Po testach bojowych </span></div><br>' +
+      '<div class="data" style="flex-direction: column;"><div style="display: flex;justify-content: space-between;"><span style="opacity:.8">Float</span><span>0.332fv </span></div> <div class="float" style="width:100%;"><div class="pointer"><div class="pointer"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"></path></svg></div></div> <div class="colors"><div class="fn"></div><div class="mw"></div><div class="ft"></div><div class="ww"></div><div class="bs"></div></div></div></div>' +
       '</div>' +
     '</div>'
     ,
   showCancelButton: false,
+  confirmButtonText: 'Kontakt ze sprzedawcą',
+  
 })
 
 
